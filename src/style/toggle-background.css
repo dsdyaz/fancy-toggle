@@ -1,0 +1,5 @@
+.toggle__background {
+    background-image: linear-gradient(180deg, rgb(40, 1, 63), rgb(74, 131, 253));
+    height: 450px;
+    width: 250px;
+}
