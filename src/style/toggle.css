@@ -33,25 +33,29 @@
 .circle__halo {
     position: absolute;
     border-radius: 50%;
+    background-color: rgba(248, 251, 253, 0.164);
 }
 
 .circle__inner-halo {
-    width: 120%;
-    height: 120%;
-    background-color: chartreuse;
+    width: 180%;
+    height: 180%;
+    left: -40%;
+    top: -40%;
     z-index: -1;
 }
 
 .circle__middle-halo {
-    width: 150%;
-    height: 150%;
-    background-color: red;
+    width: 250%;
+    height: 250%;
+    left: -75%;
+    top: -75%;
     z-index: -2;
 }
 
 .circle__outer-halo {
-    width: 180%;
-    height: 180%;
-    background-color: darkmagenta;
+    width: 310%;
+    height: 310%;
+    left: -105%;
+    top: -105%;
     z-index: -3;
 }
