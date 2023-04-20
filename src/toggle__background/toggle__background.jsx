@@ -13,13 +13,15 @@ export default function ToggleBackground() {
         <div className="bottom-area__item bottom-area__item--rear bottom-area__item--right-center" />
         <div className="bottom-area__item bottom-area__item--rear bottom-area__item--center" />
         <div className="bottom-area__item bottom-area__item--rear bottom-area__item--left-center" />
-        <div className="bottom-area__item bottom-area__item--rear bottom-area__item--left" />
+        <div className="bottom-area__item bottom-area__item--rear bottom-area__item--top-left" />
+        <div className="bottom-area__item bottom-area__item--rear bottom-area__item--bottom-left" />
         <div className="bottom-area__item bottom-area__item--front bottom-area__item--top-right" />
         <div className="bottom-area__item bottom-area__item--front bottom-area__item--bottom-right" />
         <div className="bottom-area__item bottom-area__item--front bottom-area__item--right-center" />
         <div className="bottom-area__item bottom-area__item--front bottom-area__item--center" />
         <div className="bottom-area__item bottom-area__item--front bottom-area__item--left-center" />
-        <div className="bottom-area__item bottom-area__item--front bottom-area__item--left" />
+        <div className="bottom-area__item bottom-area__item--front bottom-area__item--top-left" />
+        <div className="bottom-area__item bottom-area__item--front bottom-area__item--bottom-left" />
         {/* <div className="bottom-cluster bottom-cluster--rear">
            <div className="bottom-cluster__circle bottom-cluster__circle--top-right" />
         <div className="bottom-cluster__circle bottom-cluster__circle--bottom-right" />
