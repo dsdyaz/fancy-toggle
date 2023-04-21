@@ -12,6 +12,40 @@
     height: 103px;
     background-color: none;
     border: 1px solid pink;
+    position: relative;
 }
 
+.top-area__item {
+    color: whitesmoke;
+    user-select: none;
+    position: absolute;
+    container-type: inline-size;
+}
 
+.top-area__item span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 100cqw;
+}
+
+.top-area__item--top-left-top {
+    width: 5%;
+    height: 5%;
+    left: 20%;
+    top: 9%;
+}
+
+.top-area__item--top-left-left {
+    width: 2%;
+    height: 2%;
+    left: 10%;
+    top: 25%;
+}
+
+.top-area__item--top-left-bottom {
+    width: 2.1%;
+    height: 2.1%;
+    left: 20.5%;
+    top: 35%;
+}
