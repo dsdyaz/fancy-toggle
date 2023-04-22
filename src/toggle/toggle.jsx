@@ -5,6 +5,7 @@ import ToggleBackground from "../toggle__background/toggle__background"
 export default function Toggle() {
   return (
     <div className="toggle">
+      <div className="toggle__inner-shadow" />
       <ToggleBackground />
       <div className="circle">
         <div className="circle__halo circle__inner-halo" />

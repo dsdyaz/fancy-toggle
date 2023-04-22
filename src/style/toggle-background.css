@@ -7,6 +7,7 @@
     justify-content: space-between;
     position: absolute;
     left: 0;
-    z-index: -6;
+    top: -205%;
+    z-index: 95;
 }
 
