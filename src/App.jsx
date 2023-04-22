@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <div className="background">
         <div className="position-block">
-          {/* <Toggle /> */}
-          <ToggleBackground />
+          <Toggle />
+          {/* <ToggleBackground /> */}
         </div>
       </div>
     </div>
