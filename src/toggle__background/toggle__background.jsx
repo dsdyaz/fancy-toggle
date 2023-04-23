@@ -5,7 +5,7 @@ import TopArea from "./top-area"
 
 export default function ToggleBackground() {
   return (
-    <div className="toggle__background">
+    <div className="toggle__background" id="toggle__background">
       <TopArea />
       <BottomArea />
     </div>
