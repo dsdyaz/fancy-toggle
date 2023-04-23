@@ -1,0 +1,13 @@
+.toggle__background {
+    background-image: linear-gradient(180deg, rgb(0, 0, 3) 0%, rgb(0, 2, 7) 48%, rgb(36, 99, 199) 100%);
+    height: 320px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: -205%;
+    z-index: 95;
+}
+
