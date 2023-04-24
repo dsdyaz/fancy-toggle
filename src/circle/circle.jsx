@@ -5,15 +5,18 @@ export default function Circle(props) {
   const variant =
     isOff === true ? (
       <div className="circle circle--off" id="circle">
-        <div className="circle__inner-circle circle__inner-circle_top" />
-        <div className="circle__inner-circle circle__inner-circle_mid" />
-        <div className="circle__inner-circle circle__inner-circle_bottom" />
+        <div className="circle__background circle__background_off">
+          <div className="circle__inner-circle circle__inner-circle_top" />
+          <div className="circle__inner-circle circle__inner-circle_mid" />
+          <div className="circle__inner-circle circle__inner-circle_bottom" />
+        </div>
         <div className="circle__halo circle__inner-halo" />
         <div className="circle__halo circle__middle-halo" />
         <div className="circle__halo circle__outer-halo" />
       </div>
     ) : (
       <div className="circle" id="circle">
+        <div className="circle__background" />
         <div className="circle__halo circle__inner-halo" />
         <div className="circle__halo circle__middle-halo" />
         <div className="circle__halo circle__outer-halo" />

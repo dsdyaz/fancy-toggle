@@ -23,7 +23,7 @@ export default function Toggle() {
     <div className="toggle" id="toggle" onClick={() => move()}>
       <div className="toggle__inner-shadow" />
       <ToggleBackground />
-      <Circle />
+      <Circle isOff />
     </div>
   )
 }
