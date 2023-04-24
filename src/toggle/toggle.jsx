@@ -6,8 +6,12 @@ import Circle from "../circle/circle"
 export default function Toggle() {
   function move() {
     const toggle = document.getElementById("toggle")
-    toggle.style.justifyContent = "flex-end"
-    toggle.style.transition = "3s"
+    const circle = document.getElementById("circle")
+    const background = document.getElementById("toggle__background")
+    background.style.transform = "translateY(66%)"
+    circle.style.transform = "translateX(160%)"
+    circle.style.transition = "3s"
+    background.style.transition = "3s"
   }
   return (
     // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions
