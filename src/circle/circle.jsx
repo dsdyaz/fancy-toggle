@@ -1,26 +1,24 @@
 import React from "react"
 
-export default function Circle(props) {
-  const isOff = { props }
-  const variant =
-    isOff === true ? (
-      <div className="circle circle--off" id="circle">
-        <div className="circle__background circle__background_off">
-          <div className="circle__inner-circle circle__inner-circle_top" />
-          <div className="circle__inner-circle circle__inner-circle_mid" />
-          <div className="circle__inner-circle circle__inner-circle_bottom" />
-        </div>
-        <div className="circle__halo circle__inner-halo" />
-        <div className="circle__halo circle__middle-halo" />
-        <div className="circle__halo circle__outer-halo" />
-      </div>
-    ) : (
+export default function Circle() {
+  const variant = (
+    <div className="toggle__circle">
       <div className="circle" id="circle">
-        <div className="circle__background" />
-        <div className="circle__halo circle__inner-halo" />
-        <div className="circle__halo circle__middle-halo" />
-        <div className="circle__halo circle__outer-halo" />
+        <div className="circle__background-wrapper circle__background-wrapper--on">
+          <div className="circle__background" />
+        </div>
+        <div className="circle__background-wrapper circle__background-wrapper--off">
+          <div className="circle__background circle__background_off">
+            <div className="circle__inner-circle circle__inner-circle_top" />
+            <div className="circle__inner-circle circle__inner-circle_mid" />
+            <div className="circle__inner-circle circle__inner-circle_bottom" />
+          </div>
+        </div>
       </div>
-    )
+      <div className="halo halo--inner" />
+      <div className="halo halo--middle" />
+      <div className="halo halo--outer" />
+    </div>
+  )
   return variant
 }
