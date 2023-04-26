@@ -39,6 +39,9 @@
     width: 100%;
     height: 100%;
     position: relative;  
+    overflow: hidden;
+    background-color: rgb(255, 202, 26);
+    border-radius: 50%;
 }
 
 .circle__background {
@@ -47,15 +50,13 @@
     height: 100%;
     background-color: rgb(255, 202, 26);
     border-radius: 50%;
-    transform:  translateZ(-2px);
     box-shadow: inset 0.5px 1px 1.5px 0.3px rgba(255, 255, 255, 0.671),
                 inset -0.25px -5px 3px rgba(41, 41, 41, 0.527);
 }
 
 .circle__background_off {
     background-color: rgb(190, 190, 190);
-    left: 10px;
-    transform: translateZ(-5px);
+    left: 100px;
 }
 
 .circle_on {
