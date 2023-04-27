@@ -1,5 +1,5 @@
 import React from "react"
-import "../style/circle.css"
+import "../../style/circle.css"
 
 export default function Circle() {
   const variant = (

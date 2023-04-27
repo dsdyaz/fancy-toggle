@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "../style/toggle.css"
+import "../../style/toggle.css"
 import ToggleBackground from "../toggle__background/toggle__background"
 import Circle from "../circle/circle"
 

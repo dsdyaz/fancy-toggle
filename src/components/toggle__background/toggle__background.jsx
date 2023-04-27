@@ -1,5 +1,5 @@
 import React from "react"
-import "../style/toggle-background.css"
+import "../../style/toggle-background.css"
 import BottomArea from "./bottom-area"
 import TopArea from "./top-area"
 

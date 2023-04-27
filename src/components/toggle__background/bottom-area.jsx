@@ -1,5 +1,5 @@
 import React from "react"
-import "../style/bottom-area.css"
+import "../../style/bottom-area.css"
 
 export default function BottomArea() {
   return (

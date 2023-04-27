@@ -1,5 +1,5 @@
 import React from "react"
-import "../style/top-area.css"
+import "../../style/top-area.css"
 
 export default function TopArea() {
   return (
