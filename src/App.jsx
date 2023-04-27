@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from "react"
 import "./style/App.css"
 import "./style/page-background.css"
@@ -23,6 +21,11 @@ function App() {
             onClick={() => {
               onClickFunc()
             }}
+            role="button"
+            onKeyDown={() => {
+              onClickFunc()
+            }}
+            tabIndex={0}
           >
             <Toggle />
           </div>
