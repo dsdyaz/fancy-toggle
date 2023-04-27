@@ -15,13 +15,6 @@
     background-color: rgb(168, 205, 230);
 }
 
-
-.bottom-area__item--front {
-    background-color: whitesmoke;
-}
-
-
-
 .bottom-area__item_top-right {
     width: 30%;
     height: 0;
@@ -45,7 +38,6 @@
     top: 30%;
     left: 55%;
 }
-
 
 .bottom-area__item_center {
     width: 16%;
