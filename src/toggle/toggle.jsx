@@ -13,7 +13,7 @@ export default function Toggle() {
       : "translateX(-100px)"
     const darkCircleDelay = isOff ? "0.1s" : "0"
     const circle = document.getElementById("circle")
-    const darkCircle = document.getElementById("circle--off")
+    const darkCircle = document.getElementById("circle_off")
     const background = document.getElementById("toggle__background")
     background.style.transform = backgroundAnimation
     darkCircle.style.transform = darkCircleAnimation
