@@ -79,34 +79,34 @@
     left: -5%;
 }
 
-.bottom-area__item--front.bottom-area__item--top-right {
+.bottom-area__front-cluster .bottom-area__item_top-right {
     top: 10%;
 }
 
-.bottom-area__item--front.bottom-area__item--bottom-right {
+.bottom-area__front-cluster .bottom-area__item_bottom-right {
     top: 37%;
     left: 78%;
 }
 
-.bottom-area__item--front.bottom-area__item--right-center {
+.bottom-area__front-cluster .bottom-area__item_right-center {
     top: 52%;
     left: 59%;
 }
 
-.bottom-area__item--front.bottom-area__item--center {
+.bottom-area__front-cluster .bottom-area__item_center {
     top: 62%;
     left: 50%;
 }
 
-.bottom-area__item--front.bottom-area__item--left-center {
+.bottom-area__front-cluster .bottom-area__item_left-center {
     top: 60%;
     left: 28.5%;
 }
 
-.bottom-area__item--front.bottom-area__item--top-left {
+.bottom-area__front-cluster .bottom-area__item_top-left {
     top: 70%;
 }
 
-.bottom-area__item--front.bottom-area__item--bottom-left {
+.bottom-area__front-cluster .bottom-area__item_bottom-left {
     top: 78%;
 }
