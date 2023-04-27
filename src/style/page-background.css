@@ -1,6 +1,14 @@
 .background {
-    background-color: rgb(167, 167, 167);
     min-width: 100vw;
     min-height: 100vh;
     position: relative;
+    transition: 1s;
+}
+
+.background_dark {
+    background-color: rgb(0, 0, 19);
+}
+
+.background_light {
+    background-color: rgb(185, 223, 210);
 }
