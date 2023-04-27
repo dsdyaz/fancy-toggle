@@ -4,10 +4,10 @@ export default function Circle() {
   const variant = (
     <div className="toggle__circle" id="circle">
       <div className="circle">
-        <div className="circle__background-wrapper circle__background-wrapper--on">
+        <div className="circle__background-wrapper circle__background-wrapper_on">
           <div className="circle__background" />
         </div>
-        <div className="circle__background-wrapper circle__background-wrapper--off">
+        <div className="circle__background-wrapper circle__background-wrapper_off">
           <div
             className="circle__background circle__background_off"
             id="circle--off"

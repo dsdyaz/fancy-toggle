@@ -66,7 +66,7 @@
     background-color: rgb(255, 202, 26);
 }
 
-.circle--off {
+.circle_off {
     background-color: rgb(199, 199, 199);
 }
 
@@ -76,7 +76,7 @@
     background-color: rgba(248, 251, 253, 0.11);
 }
 
-.halo--inner {
+.halo_inner {
     width: 180%;
     height: 180%;
     left: -40%;
@@ -84,7 +84,7 @@
     transform: translateZ(-10px);
 }
 
-.halo--middle {
+.halo_middle {
     width: 250%;
     height: 250%;
     left: -75%;
@@ -92,7 +92,7 @@
     transform: translateZ(-11px);
 }
 
-.halo--outer {
+.halo_outer {
     width: 310%;
     height: 310%;
     left: -105%;
