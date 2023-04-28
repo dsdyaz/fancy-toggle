@@ -12,6 +12,7 @@
     overflow: hidden;
     position: relative;
     transition: 1s;
+    cursor: pointer;
 }
 
 .toggle__inner-shadow {
