@@ -9,5 +9,14 @@
     left: 0;
     top: -200%;
     z-index: 95;
+    transition: 1s;
+}
+
+.toggle__background_light {
+    transform: translateY(0%);
+}
+
+.toggle__background_dark {
+    transform: translateY(66%);
 }
 
