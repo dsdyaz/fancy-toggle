@@ -4,25 +4,19 @@ import ToggleBackground from "../toggle__background/toggle__background"
 import Circle from "../circle/circle"
 
 export default function Toggle() {
-  const [isOff, setOff] = useState(false)
+  const [mode, setMode] = useState("dark")
   function move() {
-    const backgroundAnimation = isOff ? "translateY(0%)" : "translateY(66%)"
-    const circleAnimation = isOff ? "translateX(0%)" : "translateX(160%)"
-    const darkCircleAnimation = isOff
-      ? "translateX(100px)"
-      : "translateX(-100px)"
-    const darkCircleDelay = isOff ? "0.1s" : "0"
     const circle = document.getElementById("circle")
     const darkCircle = document.getElementById("circle_off")
     const background = document.getElementById("toggle__background")
-    background.style.transform = backgroundAnimation
-    darkCircle.style.transform = darkCircleAnimation
-    darkCircle.style.transition = "1s"
-    darkCircle.style.transitionDelay = darkCircleDelay
-    circle.style.transform = circleAnimation
-    circle.style.transition = "1s"
-    background.style.transition = "1s"
-    setOff(!isOff)
+    circle.className = `toggle__circle toggle__circle_${mode}`
+    darkCircle.className = `circle__background circle__background_off circle__background_${mode}`
+    background.className = `toggle__background toggle__background_${mode}`
+    if (mode === "light") {
+      setMode("dark")
+    } else if (mode === "dark") {
+      setMode("light")
+    }
   }
   return (
     <div
