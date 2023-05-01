@@ -12,11 +12,10 @@
     transition: 1s;
 }
 
-.toggle__background_light {
-    transform: translateY(0%);
-}
-
-.toggle__background_dark {
+.toggle_dark .toggle__background {
     transform: translateY(66%);
 }
 
+.toggle_light .toggle__background {
+    transform: translateY(0%);
+}

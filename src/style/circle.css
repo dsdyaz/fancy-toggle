@@ -8,11 +8,11 @@
     transition: 1s;
 }
 
-.toggle__circle_light {
+.toggle_light .toggle__circle {
     transform: translateX(0%);
 }
 
-.toggle__circle_dark {
+.toggle_dark .toggle__circle {
     transform: translateX(160%);
 }
 
@@ -36,13 +36,13 @@
     transition: 1s;            
 }
 
-.circle__background_light {
-    transform: translateX(100px);
-    transition-delay: 0.1s;
+.toggle_dark .circle__background_off {
+    transform: translateX(-100px);
 }
 
-.circle__background_dark {
-    transform: translateX(-100px);
+.toggle_light .circle__background_off {
+    transform: translateX(100px);
+    transition-delay: 0.1s;
 }
 
 .circle__background_off {
